@@ -9,3 +9,7 @@ The implementation ensures that
 - No parallel or unnecessary operations to get a value will be started.
 - Failed Tasks are not cached. (No negative caching.)
 - Cache users can't get invalidated results from the cache, even if the value is invalidated *during* an await.
+
+---
+
+> Built by [Vladyslav Zaiets](https://sarmkadan.com) - CTO at [Red Rocket Software](https://redrocket.software)
